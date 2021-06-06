@@ -1,0 +1,35 @@
+*{margin: 0%;padding: 0%;}
+.images{
+    padding: 2vh;
+    text-align: center;
+    padding-bottom: 4vh;
+}
+.images img:hover{
+    opacity: 90%;
+    transform: rotateY(180deg);
+    transition: 0.8s all ease-in-out;
+    box-shadow: 1px 2px 0px 0px rgb(167, 167, 167);
+}
+.images img::after{
+    transform: rotateY(-180deg);
+    transition: 0.5s;
+}
+body{
+    text-align: center;
+}
+body h1{
+    padding: 1vh;
+    /* padding-bottom: 5vh; */
+    font-family: 'Montserrat', sans-serif;
+}
+.images img{
+    height: 250px;
+    width: 300px;
+}
+body a{
+    text-decoration: none;
+}
+body h5{
+    padding-bottom: 5vh;
+    font-family: 'Montserrat', sans-serif;
+}
