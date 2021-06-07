@@ -3,12 +3,14 @@
     padding: 2vh;
     text-align: center;
     padding-bottom: 4vh;
+    image-resolution: 1920px x 1080px;
 }
 .images img:hover{
-    opacity: 90%;
+    opacity: 100%;
     transform: rotateY(180deg);
     transition: 0.8s all ease-in-out;
     box-shadow: 1px 2px 0px 0px rgb(167, 167, 167);
+  border-radius: 12px;
 }
 .images img::after{
     transform: rotateY(-180deg);
